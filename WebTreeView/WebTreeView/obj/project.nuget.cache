@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KVe1wQulCROmXd3VPXH3+FolFrC0Adk/kJ8l0fzjGoMPjKMbRws5h8r214jSNY2dmThyK8LL5aR2T5qP1Sfn/g==",
+  "success": true,
+  "projectFilePath": "C:\\proyectosNet\\WebTreeView\\WebTreeView\\WebTreeView.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ruben\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

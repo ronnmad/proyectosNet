@@ -1,0 +1,48 @@
+﻿@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "ViewTreeView";
+    var lista = Model.GetItems();
+
+}
+
+
+
+<div>
+    <div>
+        <ul>
+            @foreach (var item in lista)
+            {
+                <li>
+                    @item.Name
+                </li>
+
+                @if (item.Children != null)
+                {
+                    <ul>
+
+                        @foreach (var item2 in item.Children)
+                        {
+                            <li>
+                                @item2.Name
+                            </li>
+                            @if (item2.Children != null)
+                            {
+                                <ul>
+                                    @foreach (var item3 in item2.Children)
+                                    {
+                                        <li>
+                                            @item3.Name
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                        }
+                    </ul>
+                }
+
+            }
+        </ul>
+    </div>
+</div>
